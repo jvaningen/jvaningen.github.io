@@ -1,0 +1,33 @@
+
+
+body {
+	background-color: cornsilk;
+	font-family: Arial;
+	text-align: center;
+}
+
+
+h1 {
+	font-family: Comic Sans MS;
+	font-style: bold;
+	font-weight: bold;
+	color: purple;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: Comic Sans MS;
+	font-style: normal;
+	color: #800080;
+	font-size: 25px;
+
+}
+
+img {
+	margin: 20px 0px 0px 0px;
+	border: 7px;
+	border-radius: 20px;
+}
+a {
+    color: #FF0000;
+    }
