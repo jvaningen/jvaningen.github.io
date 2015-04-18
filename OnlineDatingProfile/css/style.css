@@ -1,0 +1,78 @@
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+header {
+	background-color: #C0C0C0; 
+}
+
+nav {
+	overflow: hidden;
+}
+
+nav a {
+	float: left;
+	display: block;
+	height: 30px;
+	color: #FFFAF0;
+	padding: 15px 10px 0 10px;
+	font-size: 20px; 
+}
+
+nav a:hover {
+	text-decoration: none;
+	background-color: black;
+	color: red;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 36px;
+	padding: 5px 5px 0 5px;
+	margin-bottom: 10px;
+}
+
+#coffeephoto {
+		float: right;
+		width: 400px;
+		overflow: hidden;
+	}
+
+#sidebar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+
+h2 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 14px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.additionalphotos {
+	margin-right: 10px;
+
+}
+
+#text {
+	font-style: italic;
+}
+
+
+#footer {
+	background-color: #C0C0C0;
+	color: #2F4F4F;
+	font-size: 18px;
+}
+
+#footer a {
+	color: #FFFAF0;
+}
