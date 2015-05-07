@@ -1,0 +1,35 @@
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;	
+
+
+}
+
+h1 {
+	color: #000080;
+	font-family: 'Belgrano', serif;
+	font-size: 28px;
+
+}
+
+h2 {
+	font-family: 'Flamenco', cursive;
+	font-size: 24px;
+}
+
+.footer {
+	margin-top: 10px;
+	background-color: #000080; 
+	color: #FFFAFA;
+	width: 1000px;
+}
+
+@media only screen and (max-width: 480px){
+	body {
+		font-size: 12px;
+	}
+	.wrapper {
+		width: 40%;
+	}
+}
