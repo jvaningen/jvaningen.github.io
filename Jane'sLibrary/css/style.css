@@ -142,8 +142,9 @@ span {
       }
 
       #button {
-      	text-align: center; 
+      	float: left;
       }
+     
 
 		#AboutMe {
 	margin-top: 5px;
@@ -160,7 +161,8 @@ span {
 	margin-top: 30px;
 	width: 55%;
 	height: 20%;
-	float: right;	
+	float: right;
+	text-align: left;	
 }
 
 #slideshow {
@@ -204,7 +206,7 @@ span {
 	#slideshow {
 	width: 30%;
 	height: 150px;
-	padding: 20px;
+	padding: 10px;
 
 }
 
