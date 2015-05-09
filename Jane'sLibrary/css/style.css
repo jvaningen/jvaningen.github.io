@@ -36,8 +36,12 @@ nav a:hover {
 }
 
 #button {
-	margin-right: 1.25em;
+	/*width: 30px;*/
+	float: right;
+	overflow: hidden;
+	
 }
+
 
 
 h1 {
@@ -135,6 +139,10 @@ span {
 
 		   nav a {
       	float: none;
+      }
+
+      #button {
+      	text-align: center; 
       }
 
 		#AboutMe {
