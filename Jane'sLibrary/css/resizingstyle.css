@@ -18,6 +18,17 @@ h2 {
 	font-size: 24px;
 }
 
+#video2 {
+	width: 350px;
+	float: right;
+
+}
+
+#video3 {
+	width: 300px;
+	float: right;
+}
+
 .footer {
 	margin-top: 10px;
 	background-color: #000080; 
