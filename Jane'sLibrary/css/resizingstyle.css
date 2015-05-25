@@ -36,6 +36,19 @@ h2 {
 	width: 1000px;
 }
 
+@media only screen and (max-width: 720px) {
+
+
+#video2 {
+	float: none;
+}
+
+#video3 {
+	float: none;
+}
+
+	}
+
 @media only screen and (max-width: 480px){
 	body {
 		font-size: 12px;
