@@ -56,4 +56,12 @@ h2 {
 	.wrapper {
 		width: 40%;
 	}
+
+	#video2 {
+		float: none;
+	}
+
+	#video3 {
+		float: none;
+	}
 }
