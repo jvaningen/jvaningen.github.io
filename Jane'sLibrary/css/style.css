@@ -97,7 +97,30 @@ span {
 	padding: 20px;
 
 }
+/*#video1 {
+	width: 300px;
 
+}*/
+
+
+#video2 {
+	width: 300px;
+	float: none;
+
+}
+
+.clear {
+	clear: both;
+}
+
+/*#video3 {
+	width: 300px;
+	float: right;
+}
+
+/*.clear {
+	clear: both;
+}*/
 
 .footer {
 	background-color: #000080; 
@@ -106,8 +129,14 @@ span {
 	width: 1000px;
 	margin-top: 75px;
 	padding-top: 10px;
-	font-size: 12px;
+	padding-left: 10px;
+	font-size: 16px;
 }
+
+.photo {
+	width: 950px;
+}
+
 
 @media only screen and (max-width: 900px) {
 	body {
@@ -174,7 +203,7 @@ span {
 
 .footer {
 	font-size: .75em; 
-	width: 1000px;
+	
 
 }
 	
@@ -184,7 +213,9 @@ span {
 	body {
 		font-size: 10px;
 
-	}
+	}	
+
+
 
 		#AboutMe {
 	margin-top: 5px;
@@ -210,7 +241,9 @@ span {
 
 }
 
-   footer {
+
+
+   .footer {
    	font-size: .75em;
    }
 }

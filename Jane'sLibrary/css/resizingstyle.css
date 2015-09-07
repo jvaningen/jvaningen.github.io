@@ -3,7 +3,36 @@
 	margin: 0 auto;
 	width: 1000px;	
 
+}
 
+header {
+	background-color: #000080; 
+	
+}
+nav {
+	overflow: hidden;
+}
+
+nav a {
+	float: left;
+	display: block;
+	height: 1.8em;
+	color: 	#FFFAFA;
+	padding: 1em .6em 0 .6em;
+	font-size: 1.25em; 
+}
+
+
+nav a:hover {
+	text-decoration: none;
+	background-color: black;
+	color: 	#FF6347;
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	width: 950px;
 }
 
 h1 {
@@ -24,35 +53,97 @@ h2 {
 
 }
 
-#video3 {
+/*#video3 {
 	width: 300px;
 	float: right;
+}*/
+
+.photo {
+	width: 950px;
 }
+
 
 .footer {
 	margin-top: 10px;
 	background-color: #000080; 
 	color: #FFFAFA;
 	width: 1000px;
+	padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+	#video2 {
+	float: right;
+}
+
+body {
+		font-size: 12px;
+	}
+
+	p {
+		font-size: 12px;
+	}
+
+	.photo {
+		width: 60%;
+
+	}
+
+	.wrapper {
+		width: 60%;
+	}
+
+@media only screen and (max-width: 800px) {
+
+	#video2 {
+	float: right;
+}
+
+body {
+		font-size: 12px;
+	}
+
+	.wrapper {
+		width: 40%;
+	}
 }
 
 @media only screen and (max-width: 720px) {
 
 
 #video2 {
-	float: none;
+	float: right;
 }
 
-#video3 {
-	float: none;
-}
+/*#video3 {
+	float: left;
+}*/
 
+	}
+
+	body {
+		font-size: 14px;
+	}
+
+	.wrapper {
+		width: 40%;
 	}
 
 @media only screen and (max-width: 480px){
 	body {
 		font-size: 12px;
 	}
+
+	p {
+		font-size: 12px;
+	}
+
+	.photo {
+		width: 40%;
+	}
+
 	.wrapper {
 		width: 40%;
 	}
@@ -61,7 +152,7 @@ h2 {
 		float: none;
 	}
 
-	#video3 {
+	/*#video3 {
 		float: none;
-	}
+	}*/
 }
